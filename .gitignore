@@ -1,0 +1,4 @@
+/acc_monitor_env/
+/build/
+/*.spec
+__pycache__/
