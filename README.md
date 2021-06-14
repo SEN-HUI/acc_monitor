@@ -2,12 +2,16 @@
 
 A GUI to receive and visualize real-time data from a powered exoskeleton device.
 
-## Prerequisites
-- [python 3](https://www.python.org/)
+![app screenshot](media/screenshot.png)
 
 ## Installation
 ### Windows
 #### Install the project
+##### Prerequisites
+- [git](https://git-scm.com/)
+- [python 3](https://www.python.org/)
+  
+  
 1. Open a Command Prompt and navigate to a directory where you want to store the project.
 2. Type the following commands.
 	```
@@ -25,7 +29,7 @@ Download and extract the archive [Windows installer](dist/installers/acc_monitor
 ### Windows
 #### Run from source code
 
-1. Open a Command Prompt and navigate the project root directory.
+1. Open a Command Prompt and navigate to the project root directory.
 2. Type the following commands.
 
 	```
