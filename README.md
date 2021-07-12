@@ -7,7 +7,7 @@ A GUI to receive and visualize real-time data from a powered exoskeleton device.
 ## Features
 - Cross platforms
 - Localization
-- Modulization for customization and extension
+- Modularity for customization and extension
 ## Installation
 
 ### Install the project
@@ -38,7 +38,7 @@ A GUI to receive and visualize real-time data from a powered exoskeleton device.
 	```
 ### Install the app
 #### Windows
-[Installer](dist/installers/acc_monitor_win.tar.gz)
+[Installer](https://drive.google.com/file/d/1UGpfyupFdDjBnmAANhcxXlJkWwXIOaff/view?usp=sharing)
 
 
 ## Usage
@@ -67,3 +67,6 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Authors
+[Suxin Li](https://github.com/SuxinL)
