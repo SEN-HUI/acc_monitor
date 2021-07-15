@@ -61,17 +61,28 @@ class App(tk.Tk):
         self.columnconfigure([2], weight=1)
 
         self.displayers = []
-        # left acc text grid ([0,1],0])
+        # left acc text grid (0,0)
         self.left_acc_text_displayer = TextDisplayer(self, eg.DataType.ACC_L)
         self.left_acc_text_displayer.grid(row=0, column=0, rowspan=2, cnf=sss.displayer_position_cnf)
         self.add_writer(self.left_acc_text_displayer)
         self.displayers.append(self.left_acc_text_displayer)
-        # right acc text grid ([0,1],1)
+        # right acc text grid (0,1)
         self.right_acc_text_displayer = TextDisplayer(self, eg.DataType.ACC_R)
         self.right_acc_text_displayer.grid(row=0, column=1, rowspan=2, cnf=sss.displayer_position_cnf)
         self.add_writer(self.right_acc_text_displayer)
         self.displayers.append(self.right_acc_text_displayer)
- 
+        # left dbg text grid (1,0)
+        self.left_dbg_text_displayer = TextDisplayer(self, eg.DataType.DBG_L)
+        self.left_dbg_text_displayer.grid(row=1, column=0, cnf=sss.displayer_position_cnf)
+        self.add_writer(self.left_dbg_text_displayer)
+        self.displayers.append(self.left_dbg_text_displayer)
+        # right dbg text grid (1,0)
+        self.right_dbg_text_displayer = TextDisplayer(self, eg.DataType.DBG_R)
+        self.right_dbg_text_displayer.grid(row=1, column=1, cnf=sss.displayer_position_cnf)
+        self.add_writer(self.right_dbg_text_displayer)
+        self.displayers.append(self.right_dbg_text_displayer)
+
+
         # other grid (2,[0,1])
         self.other_text_displayer = TextDisplayer(self, eg.DataType.OTHER)
         # override default setting

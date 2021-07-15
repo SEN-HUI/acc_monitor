@@ -81,8 +81,9 @@ class Engine:
 class DataType(Enum):
     ACC_L = 1
     ACC_R = 2
-    DEBUG = 3
-    OTHER = 4
+    DBG_L = 3
+    DBG_R = 4
+    OTHER = 5
 
 
 class Parser():

@@ -17,6 +17,16 @@ text_displayer = {
             "lbl_title": "加速度数据(R)",
             },
         },
+    eg.DataType.DBG_L: {
+        "texts": {
+            "lbl_title": "检测行走(L)"
+            },
+        },
+    eg.DataType.DBG_R: {
+        "texts": {
+            "lbl_title": "检测行走(R)"
+            },
+        },
 
     eg.DataType.OTHER: {
         "texts": {

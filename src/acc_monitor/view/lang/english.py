@@ -17,7 +17,16 @@ text_displayer = {
             "lbl_title": "Raw Acc (R)",
             },
         },
-
+    eg.DataType.DBG_L: {
+        "texts": {
+            "lbl_title": "Walk (L)"
+            },
+        },
+    eg.DataType.DBG_R: {
+        "texts": {
+            "lbl_title": "Walk (R)"
+            },
+        },
     eg.DataType.OTHER: {
         "texts": {
             "lbl_title": "Other Infors",
