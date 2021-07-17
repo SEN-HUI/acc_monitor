@@ -4,7 +4,7 @@ def parse_acc(data):
     return list(map(int, data[7:].split(" ")))
 
 def parse_dbg(data):
-    return data[:7]
+    return data[7:]
 
 data_formats = {
     "^\[ACC_L\]-?[0-9]+ -?[0-9]+ -?[0-9]+\n$": [eg.DataType.ACC_L, parse_acc],
